@@ -1,0 +1,4 @@
+#labels Featured
+Wiki:
+http://en.wikipedia.org/wiki/Latent_semantic_analysis
+http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
