@@ -10,7 +10,7 @@ Colorado大学的一个LSA项目，提供了基于LSA的terms比较，文本比�
 4.http://www.bluebit.gr/matrix-calculator/<br />
 在线矩阵计算工具，可计算SVD<br />
 LDA:<br />
-[1] http://www.cs.princeton.edu/~blei/lda-c/<br />
+1.http://www.cs.princeton.edu/~blei/lda-c/<br />
 Lda提出者的LDA实现<br />
-[2] http://chasen.org/~daiti-m/dist/lda/<br />
+2.http://chasen.org/~daiti-m/dist/lda/<br />
 一个比较容易读懂的LDA实现<br />
