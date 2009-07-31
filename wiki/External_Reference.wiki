@@ -1,5 +1,6 @@
 #labels Featured
 ==External Link== 
+LSA:<br />
 1.http://code.google.com/p/lsa-lda/<br />
 本文中程序的代码实现和LSA相关资料<br />
 2.http://en.wikipedia.org/wiki/Latent_semantic_analysis<br />
@@ -8,7 +9,8 @@ LSA的WIKI条目，有LSA的大致介绍<br />
 Colorado大学的一个LSA项目，提供了基于LSA的terms比较，文本比较等<br />
 4.http://www.bluebit.gr/matrix-calculator/<br />
 在线矩阵计算工具，可计算SVD<br />
-
-==Further Reading==
-1.Thomas Hofmann, Probabilistic Latent Semantic Indexing, Proceedings of the Twenty-Second Annual International SIGIR Conference on Research and Development in Information Retrieval (SIGIR-99), 1999 <br />
-2.Blei, David M.; Ng, Andrew Y.; Jordan, Michael I (January 2003). "Latent Dirichlet allocation". Journal of Machine Learning Research 3: pp. 993–1022. doi:10.1162/jmlr.2003.3.4-5.993 (inactive 2009-03-30).<br />
+LDA:<br />
+[1] http://www.cs.princeton.edu/~blei/lda-c/<br />
+Lda提出者的LDA实现<br />
+[2] http://chasen.org/~daiti-m/dist/lda/<br />
+一个比较容易读懂的LDA实现<br />
