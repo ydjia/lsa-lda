@@ -17,7 +17,7 @@ Command : $> ./lda |topic num| |sample num| |data| |model name|<br>
  * sample num: after gibbs sampling burn in period, we sample |sample num| times and calculate their average value.<br>
  * data: path of the data<br>
  * model name: model's name. output file will be named by |model_name|.|type|<br>
-Note that alpha and beta are set as 50/K and 0.1 as default.
+*Note that* alpha and beta are set as 50/K and 0.1 as default.
 = Input Data Formation=
 Input data of this program is the same as blei's C code of LDA [http://www.cs.princeton.edu/~blei/lda-c/ Here]<br>
  * |M| |term_1|:|count| |term_2|:|count| ...  |term_N|:|count|<br>
@@ -25,12 +25,9 @@ Input data of this program is the same as blei's C code of LDA [http://www.cs.pr
  * |count| associated with each term is how many times that term appeared in the document. <br> 
 *Note that* |term_1| is an integer which indexes the term; it is not a string.<br>
 = Output data = 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Output files contain:<br>
+ * |model_name|.theta : estimation for document-topic parameter
+ * |model_name|.phi : estimation for topic-word parameter
+ * |model_name|.tassgin : topic assigned to each word
+ * |model_name|.other : alpha,beta,topic sum,sample sum
+ 
