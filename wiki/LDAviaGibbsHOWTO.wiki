@@ -1,8 +1,8 @@
 = Content =
-1. DOWNLOAD
+1. DOWNLOAD <br>
 2. COMPILE
 = Download =
-Download Code: Code[http://lsa-lda.googlecode.com/files/ldaviagibbs.zip]
+Download Code: [http://lsa-lda.googlecode.com/files/ldaviagibbs.zip Code]
 Download sample model: sample[]
 = Compile =
 Source code contains two program: lda and topword. lda program do parameter estimation & inference, and topword program output the top words of each topic.
@@ -12,7 +12,7 @@ make
 2. Compile topword:
 make topword
 = Parameter estimation =
-Command : $> ./lda [topic num] [sample num] [data] [model name]
+Command : $> ./lda \[topic num\] [sample num] [data] [model name]
 * topic num: the number of topics
 * sample num: after gibbs sampling burn in period, we sample [sample num] times and calculate their average value.
 * data: path of the data
