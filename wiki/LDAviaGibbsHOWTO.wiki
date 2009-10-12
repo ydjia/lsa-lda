@@ -57,3 +57,29 @@ To apply LDA on trn.dat in model.zip:<br>
    $> topword trn.phi vocab.txt topword 
 = Data analysis =
 Following lists are parts of the output of the topword program<br>
+|| topic 1 || topic 2 || topic 3 ||
+||program	||report	||reagan
+||report	||commission	||house
+||federal	||public	||white
+||law	||smoking	||president
+||programs	||services	||administration
+||government	||ban	||fitzwater
+||security	||tobacco	||national
+||national	||cigarettes	||secretary
+||social	||product	||reagans
+||says	||health	||spokesman
+||public	||sand	||first
+||money	||reynolds	||office
+||system	||separate	||chief
+||take	||stations	||presidential
+||benefits	||safety	||marlin
+||private	||products	||security
+||agencies	||evidence	||staff
+||make	||consumer	||policy
+||agency	||rules	||made
+||act	||release	||presidents
+||changes	||premier	||aides
+||violations	||cigarette	||adviser
+||policy	||spokeswoman	||washington
+||get	||smoke	||public
+||enforcement	||taken	||word
