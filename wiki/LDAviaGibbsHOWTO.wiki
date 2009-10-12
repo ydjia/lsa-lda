@@ -18,6 +18,7 @@ Command : $> ./lda |topic num| |sample num| |data| |model name|<br>
  * data: path of the data<br>
  * model name: model's name. output file will be named by |model_name|.|type|<br>
 *Note that* alpha and beta are set as 50/K and 0.1 as default.
+*e.g.* $> ./lda 100 50 ap.data ap
 = Input Data Formation=
 Input data of this program is the same as blei's C code of LDA [http://www.cs.princeton.edu/~blei/lda-c/ Here]<br>
  * |M| |term_1|:|count| |term_2|:|count| ...  |term_N|:|count|<br>
