@@ -12,18 +12,18 @@ make<br>
 2. Compile topword:<br>
 make topword<br>
 = Parameter estimation =
-Command : $> ./lda \topic num\ \sample num\ \data\ \model name\
-* topic num: the number of topics
-* sample num: after gibbs sampling burn in period, we sample [sample num] times and calculate their average value.
-* data: path of the data
-* model name: model's name. output file will be named by <model_name>.<type>
+Command : $> ./lda |topic num| |sample num| |data| |model name|<br>
+* topic num: the number of topics<br>
+* sample num: after gibbs sampling burn in period, we sample [sample num] times and calculate their average value.<br>
+* data: path of the data<br>
+* model name: model's name. output file will be named by <model_name>.<type><br>
 Note that alpha and beta are set as 50/K and 0.1 as default.
 = Input Data Formation=
-Input data of this program is the same as blei's C code of LDA Here[http://www.cs.princeton.edu/~blei/lda-c/] :
-[M] [term_1]:[count] [term_2]:[count] ...  [term_N]:[count]
+Input data of this program is the same as blei's C code of LDA [http://www.cs.princeton.edu/~blei/lda-c/ Here]
+|M| |term_1|:|count| |term_2|:|count| ...  |term_N|:|count|
 [M] is the number of unique terms in the document
-[count] associated with each term is how many times that term appeared in the document.  
-Note that [term_1] is an integer which indexes the term; it is not a string.
+|count| associated with each term is how many times that term appeared in the document.  
+Note that |term_1| is an integer which indexes the term; it is not a string.
 = Output data = 
 Add your content here.
 
