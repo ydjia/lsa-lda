@@ -1,4 +1,3 @@
-#labels Featured
 LSA:<br />
 1.http://code.google.com/p/lsa-lda/
 本文中程序的代码实现和LSA相关资料<br />
