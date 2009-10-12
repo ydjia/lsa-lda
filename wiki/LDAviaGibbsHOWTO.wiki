@@ -61,7 +61,7 @@ Following lists are parts of the output of the topword program<br>
 ||program	||report	||reagan||
 ||report	||commission	||house||
 ||federal	||public	||white||
-||law	||smoking	||president
+||law	||smoking	||president||
 ||programs	||services	||administration||
 ||government	||ban	||fitzwater||
 ||security	||tobacco	||national||
