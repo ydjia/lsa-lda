@@ -13,10 +13,10 @@ make<br>
 make topword<br>
 = Parameter estimation =
 Command : $> ./lda |topic num| |sample num| |data| |model name|<br>
-* topic num: the number of topics<br>
-* sample num: after gibbs sampling burn in period, we sample [sample num] times and calculate their average value.<br>
-* data: path of the data<br>
-* model name: model's name. output file will be named by <model_name>.<type><br>
+# topic num: the number of topics<br>
+# sample num: after gibbs sampling burn in period, we sample |sample num| times and calculate their average value.<br>
+# data: path of the data<br>
+# model name: model's name. output file will be named by |model_name|.|type|<br>
 Note that alpha and beta are set as 50/K and 0.1 as default.
 = Input Data Formation=
 Input data of this program is the same as blei's C code of LDA [http://www.cs.princeton.edu/~blei/lda-c/ Here]
