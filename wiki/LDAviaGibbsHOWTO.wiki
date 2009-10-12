@@ -7,10 +7,10 @@ Download sample model: sample[http://lsa-lda.googlecode.com/files/model.zip Samp
 = Compile =
 Source code contains two program: lda and topword. lda program do parameter estimation & inference, and topword program outputs the top words of each topic.<br>
 1. Compile lda: <br>
-make clean<br>
-make<br>
+   $> make clean<br>
+   $> make<br>
 2. Compile topword:<br>
-make topword<br>
+   $> make topword<br>
 = Parameter estimation =
 Command : $> ./lda |topic num| |sample num| |data| |model name|<br>
  * topic num: the number of topics<br>
