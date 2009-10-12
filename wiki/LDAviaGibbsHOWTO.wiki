@@ -1,0 +1,36 @@
+= Content =
+1. DOWNLOAD
+2. COMPILE
+= Download =
+Download Code: Code[http://lsa-lda.googlecode.com/files/ldaviagibbs.zip]
+Download sample model: sample[]
+= Compile =
+Source code contains two program: lda and topword. lda program do parameter estimation & inference, and topword program output the top words of each topic.
+1. Compile lda: 
+make clean
+make
+2. Compile topword:
+make topword
+= Parameter estimation =
+Command : $> ./lda [topic num] [sample num] [data] [model name]
+* topic num: the number of topics
+* sample num: after gibbs sampling burn in period, we sample [sample num] times and calculate their average value.
+* data: path of the data
+* model name: model's name. output file will be named by <model_name>.<type>
+Note that alpha and beta are set as 50/K and 0.1 as default.
+= Input Data Formation=
+Input data of this program is the same as blei's C code of LDA Here[http://www.cs.princeton.edu/~blei/lda-c/] :
+[M] [term_1]:[count] [term_2]:[count] ...  [term_N]:[count]
+[M] is the number of unique terms in the document
+[count] associated with each term is how many times that term appeared in the document.  
+Note that [term_1] is an integer which indexes the term; it is not a string.
+= Output data = 
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
