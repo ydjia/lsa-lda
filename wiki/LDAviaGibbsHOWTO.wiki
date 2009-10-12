@@ -58,9 +58,9 @@ To apply LDA on trn.dat in model.zip:<br>
    $> topword trn.phi vocab.txt topword 
 = Data analysis =
 Following lists are parts of the output of the topword program<br>
-popular words in topic 1 such as federal, law, government, security etc. are related to policy, so we can name topic 1 as policy.
-popular words in topic 2 such as smoking,tobacco, cigarette,ban, health are related to the  issue of smoking, so we can name topic 2 as smoking
-popular words in topic 3 such as white house, national, secretary, spokesman are related to government, so we can name topic 3 as government
+popular words in topic 1 such as federal, law, government, security etc. are related to policy, so we can name topic 1 as policy.<br>
+popular words in topic 2 such as smoking,tobacco, cigarette,ban, health are related to the  issue of smoking, so we can name topic 2 as smoking<br>
+popular words in topic 3 such as white house, national, secretary, spokesman are related to government, so we can name topic 3 as government<br>
 || topic 1 || topic 2 || topic 3 ||
 ||program	||report	||reagan||
 ||report	||commission	||house||
