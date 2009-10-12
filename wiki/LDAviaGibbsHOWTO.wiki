@@ -3,14 +3,14 @@
 2. COMPILE
 = Download =
 Download Code: [http://lsa-lda.googlecode.com/files/ldaviagibbs.zip Code]
-Download sample model: sample[]
+Download sample model: sample[http://lsa-lda.googlecode.com/files/model.zip Sample]
 = Compile =
-Source code contains two program: lda and topword. lda program do parameter estimation & inference, and topword program output the top words of each topic.
-1. Compile lda: 
-make clean
-make
-2. Compile topword:
-make topword
+Source code contains two program: lda and topword. lda program do parameter estimation & inference, and topword program output the top words of each topic.<br>
+1. Compile lda: <br>
+make clean<br>
+make<br>
+2. Compile topword:<br>
+make topword<br>
 = Parameter estimation =
 Command : $> ./lda \[topic num\] [sample num] [data] [model name]
 * topic num: the number of topics
