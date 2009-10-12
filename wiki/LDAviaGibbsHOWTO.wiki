@@ -6,17 +6,17 @@ Download Code: [http://lsa-lda.googlecode.com/files/ldaviagibbs.zip Code]
 Download sample model: sample[http://lsa-lda.googlecode.com/files/model.zip Sample]
 = Compile =
 Source code contains two program: lda and topword. lda program do parameter estimation & inference, and topword program outputs the top words of each topic.<br>
-# Compile lda: <br>
+ # Compile lda: <br>
 make clean<br>
 make<br>
-# Compile topword:<br>
+ # Compile topword:<br>
 make topword<br>
 = Parameter estimation =
 Command : $> ./lda |topic num| |sample num| |data| |model name|<br>
-# topic num: the number of topics<br>
-# sample num: after gibbs sampling burn in period, we sample |sample num| times and calculate their average value.<br>
-# data: path of the data<br>
-# model name: model's name. output file will be named by |model_name|.|type|<br>
+ # topic num: the number of topics<br>
+ # sample num: after gibbs sampling burn in period, we sample |sample num| times and calculate their average value.<br>
+ # data: path of the data<br>
+ # model name: model's name. output file will be named by |model_name|.|type|<br>
 Note that alpha and beta are set as 50/K and 0.1 as default.
 = Input Data Formation=
 Input data of this program is the same as blei's C code of LDA [http://www.cs.princeton.edu/~blei/lda-c/ Here]
