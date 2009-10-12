@@ -32,13 +32,19 @@ Output files contain:<br>
  * |model_name|.tassgin : topic assigned to each word
  * |model_name|.other : alpha,beta,topic sum,sample sum
 = Case Study =
-To apply LDA on ap.dat in model.zip:<br>
+To apply LDA on trn.dat in model.zip:<br>
 = compile lda =
    $> make clean<br>
    $> make<br>
    $> make toword<br>
 = Run LDA =
-   $> ./lda 100 50 ap.data ap
-= time consuming = 
+   $> ./lda 100 50 trn.data trn
+= Time Consuming, a Comparative Perspectives= 
 In my computer:<br>
-
+OpenSuse 11.1<br>
+GCC 4.2<br>
+Intel Core Duo CPU T2450<br>
+2GB RAM<br>
+ldaviagibbs program: 1000 iterations of burn in period cost 26 minutes and the following 50 sampling cost 14 minutes. memory consuming: 16.8MB
+Blei's C code: 48 iterations to converge, cost 1h22min, memory consuming: 20.5MB
+GibbsLDA++: 1000 iterations cost 23min. memory consuming: 17.8MB
