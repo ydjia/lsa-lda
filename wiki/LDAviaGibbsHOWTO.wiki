@@ -41,7 +41,7 @@ To apply LDA on trn.dat in model.zip:<br>
    $> ./lda 100 50 trn.data trn
 == Time Consuming, a Comparative Perspectives == 
 === My computer: ===
-  OPENSUSE 11 <br>
+  openSUSE 11 <br>
   GCC 4.2<br>
   Intel Core Duo CPU T2450<br>
   2GB RAM<br>
