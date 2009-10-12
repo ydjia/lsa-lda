@@ -33,15 +33,15 @@ Output files contain:<br>
  * |model_name|.other : alpha,beta,topic sum,sample sum
 = Case Study =
 To apply LDA on trn.dat in model.zip:<br>
-= compile lda =
+== compile lda ==
    $> make clean<br>
    $> make<br>
    $> make toword<br>
-= Run LDA =
+== Run LDA ==
    $> ./lda 100 50 trn.data trn
-= Time Consuming, a Comparative Perspectives= 
+== Time Consuming, a Comparative Perspectives == 
 In my computer:<br>
-OpenSuse 11.1<br>
+OpenSuse11.1<br>
 GCC 4.2<br>
 Intel Core Duo CPU T2450<br>
 2GB RAM<br>
