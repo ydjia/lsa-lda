@@ -1,7 +1,7 @@
 #labels Featured
 = Content =
-1. DOWNLOAD <br>
-2. COMPILE
+<wiki:toc max_depth="1" />
+
 = Download =
 Download Code: [http://lsa-lda.googlecode.com/files/ldaviagibbs.zip Code]<br>
 Download sample model: [http://lsa-lda.googlecode.com/files/model.zip Sample]
@@ -31,7 +31,7 @@ Input data of this program is the same as blei's C code of LDA [http://www.cs.pr
  * |M| is the number of unique terms in the document<br>
  * |count| associated with each term is how many times that term appeared in the document. <br> 
 *Note that* |term_1| is an integer which indexes the term; it is not a string.<br>
-= Output data = 
+= Output Data = 
 Output files contain:<br>
  * |model_name|.theta : estimation for document-topic parameter
  * |model_name|.phi : estimation for topic-word parameter
