@@ -20,10 +20,10 @@ Command : $> ./lda |topic num| |sample num| |data| |model name|<br>
 Note that alpha and beta are set as 50/K and 0.1 as default.
 = Input Data Formation=
 Input data of this program is the same as blei's C code of LDA [http://www.cs.princeton.edu/~blei/lda-c/ Here]<br>
-|M| |term_1|:|count| |term_2|:|count| ...  |term_N|:|count|<br>
-[M] is the number of unique terms in the document<br>
-|count| associated with each term is how many times that term appeared in the document. <br> 
-Note that |term_1| is an integer which indexes the term; it is not a string.<br>
+ * |M| |term_1|:|count| |term_2|:|count| ...  |term_N|:|count|<br>
+ * |M| is the number of unique terms in the document<br>
+ * |count| associated with each term is how many times that term appeared in the document. <br> 
+*Note that* |term_1| is an integer which indexes the term; it is not a string.<br>
 = Output data = 
 Add your content here.
 
