@@ -3,7 +3,7 @@
 2. COMPILE
 = Download =
 Download Code: [http://lsa-lda.googlecode.com/files/ldaviagibbs.zip Code]<br>
-Download sample model: sample[http://lsa-lda.googlecode.com/files/model.zip Sample]
+Download sample model: [http://lsa-lda.googlecode.com/files/model.zip Sample]
 = Compile =
 Source code contains two program: lda and topword. lda program do parameter estimation & inference, and topword program outputs the top words of each topic.<br>
 1. Compile lda: <br>
@@ -17,7 +17,7 @@ Command : $> ./lda |topic num| |sample num| |data| |model name|<br>
  * sample num: after gibbs sampling burn in period, we sample |sample num| times and calculate their average value.<br>
  * data: path of the data<br>
  * model name: model's name. output file will be named by |model_name|.|type|<br>
-*Note that* alpha and beta are set as 50/K and 0.1 as default.
+*Note that* alpha and beta are set as 50/K and 0.1 as default.<br>
 *e.g.* $> ./lda 100 50 ap.data ap
 = Input Data Formation=
 Input data of this program is the same as blei's C code of LDA [http://www.cs.princeton.edu/~blei/lda-c/ Here]<br>
@@ -31,4 +31,14 @@ Output files contain:<br>
  * |model_name|.phi : estimation for topic-word parameter
  * |model_name|.tassgin : topic assigned to each word
  * |model_name|.other : alpha,beta,topic sum,sample sum
- 
+= Case Study =
+To apply LDA on ap.dat in model.zip:<br>
+= compile lda =
+   $> make clean<br>
+   $> make<br>
+   $> make toword<br>
+= Run LDA =
+   $> ./lda 100 50 ap.data ap
+= time consuming = 
+In my computer:<br>
+
