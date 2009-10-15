@@ -42,7 +42,7 @@ To apply LDA on trn.dat in model.zip:<br>
 == Compile LDA ==
    $> make clean<br>
    $> make<br>
-   $> make toword<br>
+   $> make topword<br>
 == Run LDA ==
    $> ./lda 100 50 trn.data trn
 == Time Consuming, a Comparative Perspectives == 
